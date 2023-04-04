@@ -40,7 +40,7 @@ const numlookupapi = new Numlookupapi('YOUR-API-KEY');
 Afterwards you can make calls to the API like this:
 
 ```js
-numlookupapi.validate('+12069220880', ({
+numlookupapi.validate('2069220880', ({
         country_code: 'US'
     }).then(response => {
         console.log(response);
