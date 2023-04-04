@@ -41,7 +41,7 @@ Afterwards you can make calls to the API like this:
 
 ```js
 numlookupapi.validate('+12069220880', ({
-        country: 'US'
+        country_code: 'US'
     }).then(response => {
         console.log(response);
     }));
